@@ -1,0 +1,31 @@
+/*  
+ 
+Theme Name: GulpWithSass
+ 
+*/
+// ------------------------------------
+//			Core 
+// ------------------------------------
+
+// Variables
+@import 'scss/base/variables';
+// Bootstrap
+@import '../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss';
+// Mixin
+@import 'scss/mixin/mixins';
+@import 'scss/base/base';
+
+
+// ------------------------------------
+//			Project Structure
+// ------------------------------------
+
+// module
+@import 'scss/components/components';
+// pages
+@import 'scss/page/pages';
+
+.header {
+	margin-bottom: 20px;
+	display: flex;
+}
